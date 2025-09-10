@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title"></title>
+</head>
+<body style="display:grid;justify-items:center;top:30%;position:absolute;left:50%;transform:translate(-50%,0);">
+    <form style="position:relative;">
+        <input type="string" id="input">
+        <button type="button" onclick="checkInput()">check input!</button>
+        <button type="button" onclick="document.getElementById('input').value = ''">clear!</button>
+        <button type="button" onclick="copy()">copy!</button>
+    </form>
+    <p id="output">output will go here :3</p>
+    <script type="text/javascript" src="md5.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
