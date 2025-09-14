@@ -8,11 +8,13 @@
 <body style="display:grid;justify-items:center;top:30%;position:absolute;left:50%;transform:translate(-50%,0);">
     <form style="position:relative;">
         <input type="string" id="input">
-        <button type="button" onclick="checkInput()">check input!</button>
+        <button type="button" onclick="checkInput1()">check input (part 1)!</button>
+        <button type="button" onclick="checkInput2()">check input (part 2)!</button>
         <button type="button" onclick="document.getElementById('input').value = ''">clear!</button>
         <button type="button" onclick="copy()">copy!</button>
     </form>
     <p id="output">output will go here :3</p>
+    <p id="time">time taken will go here...</p>
     <script type="text/javascript" src="md5.js"></script>
     <script type="text/javascript" src="main.js"></script>
 </body>
